@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css" media="screen">
+        .container {
+         border:2px double red;
+         box-shadow: 2px 2px 3px black;
+         padding: 20px;
+         position: relative;
+        }
+        dt {
+         background-color: gray;
+         color:white;
+         margin-bottom: 10px;
+        }
+        dl {
+         display: grid;
+         grid-template-columns: 6fr 6fr;
+        }
+        .offer {
+           border-radius: 100px;
+           border:1px solid red;
+           background-color: yellow;
+           width: 30px;
+           padding: 10px;
+           position: absolute;
+           right: 20px;
+           top: 20px;
+        }
+     </style>
+     <style type="text/css" media="print">
+         .container {
+             border:1px solid black;
+             box-shadow: none;
+             padding: 10px;
+         }
+         dt {
+            background-color: none;
+            color:black;
+         }
+         button {
+            display: none;
+         }
+         .offer {
+            display: none;
+         }
+     </style>
+</head>
+<body>
+    <div class="container">
+        <div class="offer">20% Off</div>
+        <dl>
+           <dt>Ticket Number</dt>
+           <dd>TRN4059322</dd>
+           <dt>Departure</dt>
+           <dd>04-26-2023</dd>
+        </dl>
+        <button>Print Ticket</button>
+     </div>
+     <div class="container">
+        <div class="offer"></div>
+        <dl>
+            <dt>Ticket Number</dt>
+            <dt>TRN123567</dt>
+            <dt>Arriver</dt>
+            <dd>04-25-2023</dd>
+        </dl>
+        <button>Submit</button>
+     </div>
+</body>
+</html>

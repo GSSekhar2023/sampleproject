@@ -1,0 +1,12 @@
+.container{
+    border: 1px solid red;
+    box-shadow: 2px 2px 3px black;
+    padding: 20px;
+    position: relative;
+}
+dt{
+    background-color: gray;
+    color: white;
+    margin-bottom: 10px;
+    
+}
